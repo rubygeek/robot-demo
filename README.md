@@ -36,4 +36,4 @@ Log:     robot-demo/log.html
 Report:  robot-demo/report.html
 ```
 
-Look at the [Report](report.html)
+~[](Report-ScreenShot.png)
