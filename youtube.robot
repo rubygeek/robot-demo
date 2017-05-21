@@ -27,6 +27,7 @@ Open Homepage
 *** Test Cases ***
 
 Homepage Loads
+  [Tags]  smoke
   Open Homepage
   Element Should Be Visible  ${FIND_LOGO}
   [Teardown]  Close Browser
@@ -39,6 +40,7 @@ Visit Trending Videos
   [Teardown]  Close Browser
 
 Search Loads Results
+  [Tags]  smoke
   Open Homepage
   Input Text  ${FIND_SEARCH_FIELD}  automation
   Click Button  ${FIND_SEARCH_BUTTON}
