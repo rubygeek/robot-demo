@@ -37,5 +37,5 @@ Report:  robot-demo/report.html
 ```
 
 
-![Screenshon](./Report-ScreenShot.png)
+![Screenshot](./Report-ScreenShot.png)
 
