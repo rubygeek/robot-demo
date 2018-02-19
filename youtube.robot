@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation   A test to demo testing YouTube
-Library         Selenium2Library
+Library         SeleniumLibrary
 
 *** Variables ***
 ${BROWSER}  Firefox
