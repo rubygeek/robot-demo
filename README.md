@@ -1,6 +1,6 @@
 ## Robot Framework Demo
 
-This is a demo of using python's [Robot Framework](http://robotframework.org/) to test YouTube. This is just meant to show the awesomeness of this framework.
+This is a demo of using python's [Robot Framework](http://robotframework.org/) to test Weather Underground. This is just meant to show the awesomeness of this framework.
 
 #### Needed python goodies
 * Python 3+
