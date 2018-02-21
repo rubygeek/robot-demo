@@ -3,9 +3,9 @@
 This is a demo of using python's [Robot Framework](http://robotframework.org/) to test YouTube. This is just meant to show the awesomeness of this framework.
 
 #### Needed python goodies
-* Python 2.7 (Robot Framework is not ready for 3.0 yet)
+* Python 3+
 * pip install robotframework
-* pip install robotframework-selenium2library
+* pip install robotframework-seleniumlibrary
 
 #### Install selenium server
 * brew install selenium-server-standalone
@@ -17,25 +17,22 @@ This is a demo of using python's [Robot Framework](http://robotframework.org/) t
 ## Running the Tests 
 
 ```
-▶ robot youtube.robot
+▶ robot weather-underground.robot
 ==============================================================================
-Youtube :: A test to demo testing YouTube
+Weather-Underground :: A demo to test Weather Underground
 ==============================================================================
 Homepage Loads                                                        | PASS |
 ------------------------------------------------------------------------------
-Visit Trending Videos                                                 | PASS |
+Visit Maps and Radar Page                                             | PASS |
 ------------------------------------------------------------------------------
-Do a Search                                                           | PASS |
+View City Page                                                        | PASS |
 ------------------------------------------------------------------------------
-Youtube :: A test to demo testing YouTube                             | PASS |
+Weather-Underground :: A demo to test Weather Underground             | PASS |
 3 critical tests, 3 passed, 0 failed
 3 tests total, 3 passed, 0 failed
 ==============================================================================
-Output:  robot-demo/output.xml
-Log:     robot-demo/log.html
-Report:  robot-demo/report.html
+Output:  /Users/nstowe/personal/robot-demo/output.xml
+Log:     /Users/nstowe/personal/robot-demo/log.html
+Report:  /Users/nstowe/personal/robot-demo/report.html
 ```
-
-
-![Screenshot](./Report-ScreenShot.png)
 
